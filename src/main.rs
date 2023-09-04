@@ -55,29 +55,6 @@ fn main(){
         number_searched += 1;
     }
 }
-    /*let pattern = &args[2];
-    let regex = match Regex::new(pattern){
-        Ok(re) => re,
-        Err(err) => {
-            eprintln!("err '{}' : {}", pattern, err);
-            process::exit(1);
-        }
-    };
-    match find(&args[1], &regex){
-        Ok(matches) => {
-            if matches.is_empty(){
-                println!("Not find!");
-            }else{
-                println!("find!");
-                for file in matches{
-                    println!("{}", file);
-                }
-            }
-        }
-        Err(error) => {
-            eprintln!("Error: {}", error);
-            process::exit(1);
-        }*/
 
 
 
